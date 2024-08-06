@@ -2,4 +2,14 @@
 
 2024-07-24T11:44:36.301Z | WARNING | This is a warning message
 
-2024-07-24T11:44:36.301Z | ERROR | This is an error message
+2024-07-24T11:44:36.301Z | ERROR | This is an error messagefunction now() { [native code] } | INFO | This is an info messageThis is an info messageThis is an info message
+1722937700019 | INFO | This is an info message
+function toISOString() { [native code] } | INFO | This is an info message
+1722937888030 | INFO | This is a warning message
+1722937888030 | INFO | This is an error message
+2024-08-06T09:51:43.333Z | INFO | This is an info message
+1722937903342 | INFO | This is a warning message
+1722937903342 | INFO | This is an error message
+2024-08-06T09:52:24.606Z | INFO | This is an info message
+2024-08-06T09:52:24.607Z | WARN | This is a warning message
+2024-08-06T09:52:24.607Z | ERROR | This is an error message
