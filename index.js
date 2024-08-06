@@ -6,7 +6,7 @@ function logInfo(message) {
 }
 
 function logWarning(message) {
-  let ans = "\n" + new Date().toISOString() + " " + "|"+ " " + "WARN" + " " + "|" + " " + message;
+  let ans = "\n" + new Date().toISOString() + " " + "|"+ " " + "WARNING" + " " + "|" + " " + message;
   fs.appendFileSync("logs/app.log", ans);
 }
 
