@@ -1,18 +1,22 @@
 const fs = require('fs');
 
+function loggingMessage(message, type){
+  let ans = "\n" + new Date().toISOString() + " " + "|"+ " " + type + " " + "|" + " " + message;
+  return ans
+}
+
 function logInfo(message) {
-  let ans = "\n" + new Date().toISOString() + " " + "|"+ " " + "INFO" + " " + "|" + " " + message;
-  fs.appendFileSync("logs/app.log", ans);
+
+  fs.appendFileSync("logs/app.log", loggingMessage(message, "INFO"));
 }
 
 function logWarning(message) {
-  let ans = "\n" + new Date().toISOString() + " " + "|"+ " " + "WARNING" + " " + "|" + " " + message;
-  fs.appendFileSync("logs/app.log", ans);
+
+  fs.appendFileSync("logs/app.log", loggingMessage(message, "WARNING"));
 }
 
 function logError(message) {
-  let ans = "\n" + new Date().toISOString() + " " + "|"+ " " + "ERROR" + " " + "|" + " " + message;
-  fs.appendFileSync("logs/app.log", ans);
+  fs.appendFileSync("logs/app.log", loggingMessage(message, "ERROR"));
 
 }
 

@@ -13,3 +13,11 @@ function toISOString() { [native code] } | INFO | This is an info message
 2024-08-06T09:52:24.606Z | INFO | This is an info message
 2024-08-06T09:52:24.607Z | WARN | This is a warning message
 2024-08-06T09:52:24.607Z | ERROR | This is an error message
+2024-08-06T10:05:43.256Z | INFO | This is an info message
+2024-08-06T10:05:43.258Z | WARNING | This is a warning message
+2024-08-06T10:05:43.258Z | ERROR | This is an error message
+2024-08-06T10:07:01.603Z | INFO | This is an info message
+2024-08-06T10:07:01.605Z | WARNING | This is a warning message
+2024-08-06T10:07:14.710Z | INFO | This is an info message
+2024-08-06T10:07:14.713Z | WARNING | This is a warning message
+2024-08-06T10:07:14.713Z | ERROR | This is an error message
