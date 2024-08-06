@@ -2,22 +2,19 @@ const fs = require('fs');
 
 function loggingMessage(message, type){
   let ans = "\n" + new Date().toISOString() + " " + "|"+ " " + type + " " + "|" + " " + message;
-  return ans
+  fs.appendFileSync("logs/app.log", ans);
 }
 
 function logInfo(message) {
-
-  fs.appendFileSync("logs/app.log", loggingMessage(message, "INFO"));
+  loggingMessage(message, "INFO")
 }
 
 function logWarning(message) {
-
-  fs.appendFileSync("logs/app.log", loggingMessage(message, "WARNING"));
+  loggingMessage(message, "WARNING")
 }
 
 function logError(message) {
-  fs.appendFileSync("logs/app.log", loggingMessage(message, "ERROR"));
-
+  loggingMessage(message, "ERROR")
 }
 
 logInfo("This is an info message");

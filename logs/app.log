@@ -21,3 +21,6 @@ function toISOString() { [native code] } | INFO | This is an info message
 2024-08-06T10:07:14.710Z | INFO | This is an info message
 2024-08-06T10:07:14.713Z | WARNING | This is a warning message
 2024-08-06T10:07:14.713Z | ERROR | This is an error message
+2024-08-06T10:15:44.955Z | INFO | This is an info message
+2024-08-06T10:15:44.962Z | WARNING | This is a warning message
+2024-08-06T10:15:44.962Z | ERROR | This is an error message
